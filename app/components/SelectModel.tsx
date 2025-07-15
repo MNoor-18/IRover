@@ -22,7 +22,7 @@ const SelectModel = () => {
 
   return (
     <section className="w-screen min-h-fit relative overflow-hidden bg-primary-light pt-10">
-        <h1 className="text-center text-4xl font-bold text-primary-color">
+        <h1 className="text-center text-2xl sm:text-4xl font-bold text-primary-color">
             Select Model Year
         </h1>
         <div className="flex flex-col justify-center relative">
@@ -38,7 +38,7 @@ const SelectModel = () => {
                 </div>
             </div>
             {/* Result Side */}
-            <div className={`mx-auto pt-12 pb-8 ${limit} overflow-hidden grid grid-cols-2 md:grid-cols-3 gap-3 2xl:grid-cols-4 xl:gap-8 `}>
+            <div className={`mx-auto pt-12 pb-8 ${limit} overflow-hidden grid grid-cols-2 md:grid-cols-3 sm:gap-3 2xl:grid-cols-4 xl:gap-8 `}>
                 {selectedModel === 'all'
                 ? Object.values(carByYear).map((car) => (
                     fillResultContainer(car)
@@ -52,7 +52,7 @@ const SelectModel = () => {
         </div>
 
         <CustomButton
-                title={limit === "max-h-fit" ? 'Less' : 'More'}
+                title={limit === "max-h-fit" ? 'Show Less' : 'Show More'}
                 containerStyles="w-fit mx-auto absolute -bottom-1 bg-white p-2 rounded-t-2xl mt-10 "
                 textStyles="text-base sm:text-lg text-primary-color font-semibold"
                 handleClick={() => {

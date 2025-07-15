@@ -104,14 +104,16 @@ const Chat = () => {
                     }}
                 />
                 <button
+                    type="button"
                     onClick={() => {
                         if(!seved){
                             sendMsg();
+                            setTheWritten("");
                         } else {
                             setShowAlert(true)
                         }
                     }}
-                    className="bg-white text-primary-color p-4 rounded-full cursor-pointer"
+                    className="bg-white font-semibold text-primary-color p-4 rounded-full cursor-pointer"
                 >
                     Send
                 </button>
@@ -128,7 +130,7 @@ const Chat = () => {
                             transition={{ duration: 0.3 }}
                         >
                             
-                            <Alert className="w-fit h-fit px-6 py-4 mt-6 shadow-lg">
+                            <Alert className="w-fit h-fit bg-white px-6 py-4 mt-6 shadow-lg">
                                 <AlertTitle>It is just for fun baby</AlertTitle>
                                 <AlertDescription className="font-semibold text-gray-400">Sorry dud this are not social media😅</AlertDescription>
                             </Alert>
