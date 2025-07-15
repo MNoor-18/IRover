@@ -15,9 +15,9 @@ const Luxury = () => (
         </div>
 
         {/* Images Container */}
-        <div className="w-full h-68 sm:h-84 lg:h-90 xl:h-116 max-xl:order-first lg:w-xl 2xl:w-3xl bg-white overflow-hidden backdrop-blur-lg shadow-xl border-white border-1 rounded-xl flex flex-col gap-1 *:rounded-lg">
+        <div className="w-full h-68 sm:h-84 lg:h-90 xl:h-116 max-xl:order-first lg:w-xl 2xl:w-3xl bg-white overflow-hidden backdrop-blur-lg shadow-xl border-white border-2 sm:border-4 gap-0.5 sm:gap-1 rounded-xl flex flex-col *:rounded-lg">
             {/* container 1 */}
-            <div className="h-1/2 w-full flex gap-1 *:overflow-hidden *:rounded-xl *:relative">
+            <div className="h-1/2 w-full flex gap-0.5 sm:gap-1 *:overflow-hidden *:rounded-xl *:relative">
                 {/* num 1 */}
                 <div className="h-full w-8/12">
                     <Image src='/luxury/luxury-1.jpg'
@@ -37,7 +37,7 @@ const Luxury = () => (
             </div>
 
             {/* container 2 */}
-            <div className="w-full h-1/3 flex gap-1 *:overflow-hidden *:rounded-xl *:relative">
+            <div className="w-full h-1/3 flex gap-0.5 sm:gap-1 *:overflow-hidden *:rounded-xl *:relative">
                 {/* num 3 */}
                 <div className="h-full w-5/12">
                     <Image src='/luxury/luxury-3.jpg'
@@ -57,7 +57,7 @@ const Luxury = () => (
             </div>
 
             {/* container 3 */}
-            <div className="h-1/3 w-full flex gap-1 *:overflow-hidden *:rounded-xl *:relative">
+            <div className="h-1/3 w-full flex gap-0.5 sm:gap-1 *:overflow-hidden *:rounded-xl *:relative">
                 {/* num 5 */}
                 <div className="w-1/2 h-full">
                     <Image src='/luxury/luxury-5.jpg'

@@ -9,7 +9,7 @@ const Hero = () => {
       <div className="w-screen h-screen overflow-x-hidden relative pages-Primary-heiht">
          <div className="w-full h-full pt-24">
             <div className="w-full h-full flex items-center padding-x">
-               <div className="md:w-1/2 md:py-16 bg-[#fff8] backdrop-blur-xs p-5 rounded-xl text-center md:text-start h-fit flex flex-col gap-3">
+               <div className="md:w-1/2 md:py-16 bg-[#ffffff8b] backdrop-blur-xs p-5 rounded-xl text-center md:text-start h-fit flex flex-col gap-3">
                   <h1 className="text-2xl md:text-3xl xl:text-5xl font-extrabold">
                      Limitless luxury, performance beyond expectations – Range Rover.
                   </h1>
