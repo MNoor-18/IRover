@@ -9,9 +9,9 @@ const Luxury = () => (
     <div className="h-full w-full sm:p-5 mt-5 flex flex-col gap-5 xl:flex-row justify-between items-center">
         {/* Luxury Content */}
         <div className="max-lg:w-full max-lg:h-fit xl:w-sm xl:h-116 overflow-hidden bg-[#ffffffa2] backdrop-blur-lg shadow-xl border-white border-[1px] rounded-lg sm:rounded-xl p-4">
-            <h2 className='text-gray-500 text-2xl font-bold'>{luxury.title}</h2>
+            <h2 className='text-lg text-gray-500 sm:text-2xl font-bold'>{luxury.title}</h2>
             <hr className='my-2 text-[#80808030] border-2' />
-            <p className='text-gray-500 text-lg font-semibold'>{luxury.description}</p>
+            <p className='text-gray-500 text-base sm:text-lg font-semibold'>{luxury.description}</p>
         </div>
 
         {/* Images Container */}

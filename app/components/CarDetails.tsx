@@ -49,15 +49,15 @@ const CarDetails = ({ isOpen, closeModal, car, imageSrc }: CarDetailsProps) => {
                     </div>
 
                     <div className="flex gap-3 *:overflow-hidden">
-                      <div className="flex-1 relative w-full h-24 bg-primary-light rounded-lg">
-                        <Image src="/angle-29.jpg" alt="Car Model" fill priority className="object-cover" />
+                      <div className="flex-1 relative w-full h-24 rounded-lg">
+                        <Image src="/angle-29.jpg" alt="Car Model" fill priority className="object-contain" />
                       </div>
                       
-                      <div className="flex-1 relative w-full h-24 bg-primary-light rounded-lg">
-                        <Image src="/angle-33.jpg" alt="Car Model" fill priority className="object-cover" />
+                      <div className="flex-1 relative w-full h-24 rounded-lg">
+                        <Image src="/angle-33.jpg" alt="Car Model" fill priority className="object-contain" />
                       </div>
                       
-                      <div className="flex-1 relative w-full h-24 bg-primary-light rounded-lg">
+                      <div className="flex-1 relative w-full h-24 rounded-lg">
                         <Image src="/angle-13.jpg" alt="Car Model" fill priority className="object-contain" />
                       </div>
                     </div>

@@ -26,7 +26,7 @@ const AboutCar = () => {
                     {/* Header Section */}
                     <div className="flex flex-col gap-5 justify-between items-center">
                         <h2 className="self-start text-xl text-white xl:text-3xl font-semibold px-2 border-l-4 border-white">
-                            Discover <span className="font-bold text-black">Range Rover</span>
+                            Discover <span className="text-black font-bold">Range Rover</span>
                         </h2>
 
                         <div className="flex rounded-full border-2 md:border-4 border-primary-color">
