@@ -1,0 +1,57 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"); */
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@layer utilities {
+  .clip-hexagon {
+    clip-path: polygon(50% 0%, 100% 38%, 82% 100%, 18% 100%, 0% 38%);
+  }
+}
+
+/* START: roots styles */
+.padding-x {
+  @apply p-5 sm:px-10 md:px-16 lg:px-18 xl:px-26 ;
+}
+
+.padding-y {
+  @apply py-3 sm:py-5 md:py-8 lg:py-12 xl:py-16 ;
+}
+
+.overWidth {
+  @apply max-w-[1640px] mx-auto ;
+}
+
+.pages-Primary-height {
+  @apply min-h-screen h-fit ;
+}
+
+.bg-primary-color {
+  @apply bg-blue-700
+}
+
+.bg-primary-light {
+  @apply bg-gray-50
+}
+
+.text-primary-color {
+  @apply text-blue-700
+}
+.border-primary-color {
+  @apply border-blue-700
+}
+
+.max-width {
+  @apply max-w-[1440px] mx-auto;
+}
+
+.footer__links {
+  @apply flex-1 max-md:w-full flex max-md:justify-evenly lg:justify-end md:justify-end flex-wrap max-md:mt-5 gap-5 sm:gap-20;
+}
+
+.footer__link {
+  @apply flex flex-col gap-6 px-1 text-base min-w-fit;
+}
+
+.footer__copyrights-link {
+  @apply flex-1 flex sm:justify-end justify-center max-sm:mt-4 gap-10;
+}
