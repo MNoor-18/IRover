@@ -48,7 +48,7 @@ const SelectModel = () => {
                 ))
                 }
             </div>
-            <div className={`w-full h-2 bottom-0 bg-primary-light absolute ${limit === limitStyle? '[box-shadow:0_-4px_20px_20px_#f9fafb]' : ''} `}/>
+            <div className={`w-full h-2 left-0 bottom-0 bg-primary-light absolute ${limit === limitStyle? '[box-shadow:_0_-4px_20px_20px_#f9fafb]' : ''} `}/>
         </div>
 
         <CustomButton
