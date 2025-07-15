@@ -50,7 +50,7 @@
 }
 
 .footer__link {
-  @apply flex flex-col gap-6 px-1 text-base min-w-fit;
+  @apply flex flex-col gap-4 sm:gap-6 px-1 text-base min-w-fit;
 }
 
 .footer__copyrights-link {

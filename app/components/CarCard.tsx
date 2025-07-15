@@ -34,7 +34,7 @@ const CarCard = ({car, srcOfImage}: CarCardProps) => {
 };
 
     return (
-      <div className="group w-50 lg:w-64 xl:w-xs sm:rounded-3xl bg-white sm:shadow-lg p-3 md:p-5 xl:p-8 flex flex-col justify-center items-start text-black hover:shadow-xl ">
+      <div className="group w-50 lg:w-64 xl:w-xs sm:rounded-3xl shadow-sm max-sm:my-[1px] bg-white sm:shadow-lg p-3 md:p-5 xl:p-8 flex flex-col justify-center items-start text-black hover:shadow-xl ">
         <div className="w-full">
             <h2 className="text-base lg:text-[22px] leading-[26px] font-bold capitalize">{model} {year}</h2>
             <h4 className="text-xs lg:text-base text-gray-400 font-bold">From: {make}</h4>

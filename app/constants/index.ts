@@ -181,7 +181,7 @@ export const footerLinks = [
    {
       title: "About",
       links: [
-         { title: "Developer", url: "#" },
+         { title: "Developer", url: "/" },
          { title: "Featured", url: "/" },
          { title: "Partnership", url: "/" },
          { title: "Business Relation", url: "/" },

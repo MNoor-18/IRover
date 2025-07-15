@@ -15,7 +15,7 @@ const Luxury = () => (
         </div>
 
         {/* Images Container */}
-        <div className="w-full h-84 lg:h-90 xl:h-116 max-xl:order-first lg:w-xl 2xl:w-3xl bg-white overflow-hidden backdrop-blur-lg shadow-xl border-white border-1 rounded-xl flex flex-col gap-1 *:rounded-lg">
+        <div className="w-full h-68 sm:h-84 lg:h-90 xl:h-116 max-xl:order-first lg:w-xl 2xl:w-3xl bg-white overflow-hidden backdrop-blur-lg shadow-xl border-white border-1 rounded-xl flex flex-col gap-1 *:rounded-lg">
             {/* container 1 */}
             <div className="h-1/2 w-full flex gap-1 *:overflow-hidden *:rounded-xl *:relative">
                 {/* num 1 */}

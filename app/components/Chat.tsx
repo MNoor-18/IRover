@@ -40,6 +40,8 @@ const Chat = () => {
         }else{
             localStorage.setItem("userMessage", "Yea I really like you dear 🥹");
         }
+        setSeved(theWritten);
+        setTheWritten("");
     }
 
   return (
@@ -108,7 +110,6 @@ const Chat = () => {
                     onClick={() => {
                         if(!seved){
                             sendMsg();
-                            setTheWritten("");
                         } else {
                             setShowAlert(true)
                         }
@@ -131,8 +132,8 @@ const Chat = () => {
                         >
                             
                             <Alert className="w-fit h-fit bg-white px-6 py-4 mt-6 shadow-lg">
-                                <AlertTitle>It is just for fun baby</AlertTitle>
-                                <AlertDescription className="font-semibold text-gray-400">Sorry dud this are not social media😅</AlertDescription>
+                                <AlertTitle>It is just for fun dude.</AlertTitle>
+                                <AlertDescription className="font-semibold text-gray-400">Sorry dude, but this is not social media😅</AlertDescription>
                             </Alert>
                           </motion.div>
                     )}
