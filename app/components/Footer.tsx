@@ -10,9 +10,9 @@ const Footer = () => {
 
   return (
     <footer className='flex flex-col mt-5 text-slate-900 border-t border-gray-100'>
-      <div className="flex flex-col lg:flex-row flex-wrap items-center md:items-start justify-between gap-5 px-6 md:px-16 py-3 ">
+      <div className="flex flex-col md:flex-row flex-wrap items-center md:items-start justify-between gap-5 px-6 md:px-16 py-3 ">
 
-        <div className="w-fit lg:max-w-1/3 flex flex-col lg:mb-5 sm:flex-row md:flex-col justify-start items-center sm:items-start gap-6">
+        <div className="w-fit md:max-w-1/3 flex flex-col lg:mb-5 sm:flex-row md:flex-col justify-start items-center sm:items-start gap-6">
           <Image src="/irover-logo.png" alt="I rover logo" width={118} height={18} className="object-contain" />
           <div>
             <h3 className="text-center sm:text-start text-lg font-bold mb-2">Range Rover Experience</h3>

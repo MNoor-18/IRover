@@ -13,11 +13,11 @@ const Hero = () => {
                   <h1 className="text-2xl md:text-3xl xl:text-5xl font-extrabold">
                      Limitless luxury, performance beyond expectations – Range Rover.
                   </h1>
-                  <p className="text-lg lg:text-xl xl:text-3xl font-bold text-gray-700">
+                  <p className="text-lg lg:text-xl xl:text-3xl font-bold text-gray-800 md:text-gray-700">
                      With <span className="text-black">Range Rover</span>, every journey becomes a unique and unforgettable experience.
                   </p>
                   <CustomButton title="Visit Official Site" 
-                     containerStyles="bg-primary-color p-4 max-sm:text-sm w-fit max-md:mx-auto text-white rounded-full lg:mt-10"
+                     containerStyles="bg-primary-color p-5 max-sm:text-sm w-fit max-md:mx-auto text-white rounded-full lg:mt-10"
                      textStyles="font-semibold"
                      handleClick={() => open('https://www.rangerover.com/en-xi/range-rover/index.html', '_blank')}
                   />

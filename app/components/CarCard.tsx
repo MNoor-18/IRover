@@ -34,7 +34,9 @@ const CarCard = ({car, srcOfImage}: CarCardProps) => {
 };
 
     return (
-      <div className="group w-48 lg:w-64 xl:w-xs sm:rounded-3xl max-sm:my-[1px] bg-white sm:shadow-lg p-3 md:p-5 xl:p-8 flex flex-col justify-center items-start text-black hover:shadow-xl ">
+      <div className="group w-46 gap-[1px] lg:w-64 xl:w-xs sm:rounded-3xl max-sm:my-[1px] bg-white sm:shadow-lg p-3 md:p-5 xl:p-8 flex flex-col justify-center items-start text-black hover:sm:shadow-xl "
+        onClick={() => setIsOpen(true)}
+      >
         <div className="w-full">
             <h2 className="text-base lg:text-[22px] leading-[26px] font-bold capitalize">{model} {year}</h2>
             <h4 className="text-xs lg:text-base text-gray-400 font-bold">From: {make}</h4>
@@ -44,7 +46,7 @@ const CarCard = ({car, srcOfImage}: CarCardProps) => {
             <span className="self-start text-base lg:text-lg font-semibold">${price}</span>
         </p>
 
-        <div className="relative w-full h-38 lg:h-44 md:my-3 object-contain">
+        <div className="relative w-full bg-gray-50 h-38 lg:h-44 md:my-3 object-contain">
             <Image src={srcOfImage} alt="Range Rover" fill priority className="object-contain" />
         </div>
 
