@@ -46,7 +46,7 @@
 }
 
 .footer__links {
-  @apply flex-1 flex justify-start max-md:w-full max-md:justify-evenly lg:justify-end md:justify-end flex-wrap max-md:mt-5 gap-5 sm:gap-20;
+  @apply flex-1 flex max-sm:items-start max-md:w-full max-md:justify-evenly lg:justify-end md:justify-end flex-wrap max-md:mt-5 gap-5 sm:gap-20;
 }
 
 .footer__link {
