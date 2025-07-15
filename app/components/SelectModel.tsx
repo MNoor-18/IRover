@@ -27,7 +27,7 @@ const SelectModel = () => {
         </h1>
         <div className="flex flex-col justify-center relative">
             {/* Filter Side */}
-            <div className="mt-5 md:mt-10 flex justify-center py-4">
+            <div className="mt-8 md:mt-10 flex justify-center py-4">
                 <div className="flex items-center gap-2">
                     <label htmlFor="filter" className="text-lg text-gray-500 font-semibold">Filter :</label>
                     <select id="filter" className="min-w-26 p-2 rounded-lg bg-white shadow-sm focus:outline-none focus:ring-2 focus:ring-blue-500" onChange={(e) => setSelectedModel(e.target.value)} >
@@ -38,7 +38,7 @@ const SelectModel = () => {
                 </div>
             </div>
             {/* Result Side */}
-            <div className={`mx-auto pt-8 md:pt-12 pb-8 ${limit} overflow-hidden grid grid-cols-2 md:grid-cols-3 sm:gap-3 2xl:grid-cols-4 xl:gap-8 `}>
+            <div className={`mx-auto pt-5 md:pt-12 pb-8 ${limit} overflow-hidden grid grid-cols-2 md:grid-cols-3 sm:gap-3 2xl:grid-cols-4 xl:gap-8 `}>
                 {selectedModel === 'all'
                 ? Object.values(carByYear).map((car) => (
                     fillResultContainer(car)
